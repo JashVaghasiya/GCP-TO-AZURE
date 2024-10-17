@@ -2,7 +2,8 @@
 
 # **Data Engineering Project: Cloud Data Pipeline between Google Cloud and Azure**
 
-![Azure Project-2 Design](https://github.com/user-attachments/assets/10e5c3d9-3b42-422f-8831-078042ad8f48)
+![architecture](https://github.com/user-attachments/assets/f56c8e56-1a51-45a1-ade9-66e05024ff5b)
+
 
 ## Project Overview
 

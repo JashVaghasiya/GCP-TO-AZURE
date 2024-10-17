@@ -4,7 +4,6 @@
 
 ![architecture](https://github.com/user-attachments/assets/f56c8e56-1a51-45a1-ade9-66e05024ff5b)
 
-
 ## Project Overview
 
 This project involves building large-scale data pipelines to migrate, process, and govern data between **Google Cloud** and **Azure**. The solution utilizes:

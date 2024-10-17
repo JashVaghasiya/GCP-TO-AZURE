@@ -2,7 +2,7 @@
 
 # **Data Engineering Project: Cloud Data Pipeline between Google Cloud and Azure**
 
-![Azure Project-2 Design](https://github.com/user-attachments/assets/753aa36b-d030-42b6-b351-2acb181dfbc2)
+![Azure Project-2 Design](https://github.com/user-attachments/assets/10e5c3d9-3b42-422f-8831-078042ad8f48)
 
 ## Project Overview
 
@@ -30,7 +30,8 @@ This project incorporates robust **logging mechanisms**, **parameterization**, *
 
 ### 1. Dimensional Data Pipelines
 
-![Screenshot 2024-10-17 160144](https://github.com/user-attachments/assets/bf7c3d33-5cd6-4336-b0c1-1bd45e7a4f20)
+![Screenshot 2024-10-17 160144](https://github.com/user-attachments/assets/c9116281-5b21-4ce0-83bd-e4b0aabd78e0)
+
 
 #### **Pipeline 1: `1a_pl_dim_gcp_to_azure_full_load`**
 - **Activities**:
@@ -42,7 +43,8 @@ This project incorporates robust **logging mechanisms**, **parameterization**, *
   - **File Processing Loop**: Loops through valid files, copying them to Azure Blob Storage.
   - **Logging and Alerts**: Logs success or failure during each step and sends email alerts.
 
-![for_each_loop](https://github.com/user-attachments/assets/ac878a50-3acf-41be-9308-40d175c6df52)
+![for_each_loop](https://github.com/user-attachments/assets/3df44531-0103-4cd9-8500-901b2b659c02)
+
 
 #### **Pipeline 2: `1b_pl_dim_sub_landing_to_raw_full_load`**
 - **Activities**:
@@ -51,7 +53,8 @@ This project incorporates robust **logging mechanisms**, **parameterization**, *
   - **Logging**: Logs the success or failure of the data movement.
   - **Failure Alerts**: Sends email alerts if the data processing fails.
 
-![landing_to_raw](https://github.com/user-attachments/assets/e21840d8-43f7-463a-a7df-9a558272f9f0)
+![landing_to_raw](https://github.com/user-attachments/assets/222249ba-17f9-4fd5-acd7-a3e725d6da7e)
+
 
 #### **Pipeline 3: `1c_pl_dim_raw_to_intermediate`**
 - **Activities**:
@@ -59,7 +62,8 @@ This project incorporates robust **logging mechanisms**, **parameterization**, *
   - **Logging**: Logs the success or failure of data processing.
   - **Failure Alerts**: Sends email notifications if there is a failure during the processing.
 
-![raw_to_intermediate](https://github.com/user-attachments/assets/5e665148-476c-465f-9ebb-dea176789802)
+![raw_to_intermediate](https://github.com/user-attachments/assets/131d5115-3568-4f8b-bf2d-3fdfc8ad272d)
+
 
 ---
 
@@ -101,7 +105,7 @@ The same structure is applied to fact tables, with adjustments for delta loading
   - **Success Logging**: Logs the success of the ingestion.
   - **Failure Logging**: Captures any error messages if the ingestion fails.
 
-![intermediate_to_curated](https://github.com/user-attachments/assets/234ffa75-814b-4fec-bb6a-65e4805175d8)
+![intermediate_to_curated](https://github.com/user-attachments/assets/724fa1ba-dd6e-4250-b97f-b7035d0e4506)
 
 ---
 
